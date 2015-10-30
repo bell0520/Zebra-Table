@@ -1,0 +1,48 @@
+* {
+    padding: auto;
+    margin: 0 auto;
+}
+
+#wrapper {
+}
+
+table{
+    float: left;
+    width: 80%;
+    max-width: 1500px;
+    min-width: 600px;
+}
+
+caption{
+    font-size: 2em;
+    padding: 0.5em;
+}
+
+th{
+    background: hsl(200, 100%, 50%);
+    border: 1px solid black;
+}
+
+td{
+    border: 1px solid black;
+}
+
+/*-------Table Colouring--------*/
+
+tr:nth-child(even){
+    background: hsl(200, 100%, 50%);
+}
+
+tr:nth-child(odd){
+    background: hsl(200, 100%, 75%);
+}
+
+/*--------Hover Colouring---------*/
+
+tr:hover{
+    background-color: #686868;
+}
+
+td:hover{
+    background-color: red;
+}
